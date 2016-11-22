@@ -18,7 +18,8 @@ public class TwoSortsPanel extends JPanel //+=
 
 		label = new JLabel("increment" plus pushes);
 
-		add(push)
+		add(push);
+		add(label);
 		//NOTE THIS!! ^ not sure how this shit works O_o
 
 		int[] collection = new int[sizeOfArray];
